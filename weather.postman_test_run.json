@@ -1,0 +1,102 @@
+{
+	"id": "ebd847f5-76ab-4f4e-bbb6-ca7ed1f7ea6e",
+	"name": "weather",
+	"timestamp": "2020-12-11T09:16:25.972Z",
+	"collection_id": "7a4d5b35-68ac-4689-a2bc-8157927290b9",
+	"folder_id": 0,
+	"environment_id": "3fa52314-d476-453d-9017-4fbf9e2deb81",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e61e36e4-2947-4c64-abcc-ae9afc812789",
+			"name": "get_id_by_name",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is ok, response is json": true
+			},
+			"testPassFailCounts": {
+				"Status is ok, response is json": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				244,
+				143,
+				112,
+				150
+			],
+			"allTests": [
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				}
+			]
+		},
+		{
+			"id": "f19cdad9-93fe-40e5-bc02-477875fa9b97",
+			"name": "get_weather",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is ok, response is json": true
+			},
+			"testPassFailCounts": {
+				"Status is ok, response is json": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				116,
+				122,
+				115,
+				109
+			],
+			"allTests": [
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				},
+				{
+					"Status is ok, response is json": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 1111,
+	"collection": {
+		"requests": [
+			{
+				"id": "e61e36e4-2947-4c64-abcc-ae9afc812789",
+				"method": "GET"
+			},
+			{
+				"id": "f19cdad9-93fe-40e5-bc02-477875fa9b97",
+				"method": "GET"
+			}
+		]
+	}
+}
